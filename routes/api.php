@@ -27,7 +27,7 @@ Route::group(['middleware' => 'auth:sanctum'], function () {
 
 Route::post("login",[UserController::class,'index']);
 
-
+/*
 Route::post('/login', [UserController::class, 'login'])->name('login');
 Route::post('/logout', [UserController::class, 'logout'])->name('logout');
 
@@ -47,5 +47,5 @@ Route::put('/filieres/{filiere}', [FiliereController::class, 'update']);
 Route::delete('/filieres/{filiere}', [FiliereController::class, 'destroy']);
 Route::get('/filieres/{filiere}/edit', [FiliereController::class, 'edit']);
 
-
+*/
 
